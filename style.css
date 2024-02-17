@@ -431,3 +431,30 @@ footer {
 footer p {
   text-align: center;
 }
+
+.social-media-icon {
+  width: 100px; /* adjust size as needed */
+  height: 100px; /* adjust size as needed */
+  background-image: url('your-social-media-image.png'); /* replace 'your-social-media-image.png' with the path to your image */
+  background-size: cover;
+  border-radius: 50%; /* to make it round */
+  animation: colorChange 5s infinite; /* change '5s' to adjust the duration of each color change */
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: red; /* start color */
+  }
+  25% {
+    background-color: blue; /* change color */
+  }
+  50% {
+    background-color: green; /* change color */
+  }
+  75% {
+    background-color: yellow; /* change color */
+  }
+  100% {
+    background-color: red; /* return to start color */
+  }
+}
